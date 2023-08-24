@@ -1,0 +1,18 @@
+@import '../styles/colors';
+
+.stdBtn
+{
+	display: flex;
+	padding: var(--spacing-1, 0.5rem) var(--spacing-3, 1.5rem);
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	outline: none;
+	border-radius: var(--button-border-radius, 0.25rem);
+	border-width: 0;
+	color: var(--color-brand-white, "#FCFCFC");
+}
+
+.stdBtn:hover {
+	cursor: pointer;
+}

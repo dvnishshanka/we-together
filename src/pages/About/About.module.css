@@ -1,0 +1,30 @@
+.wrapper
+{
+	padding: 0 8rem 3rem 8rem;
+}
+
+.banner {
+	display: flex;
+	flex-direction: column;
+	margin: auto ;
+	width: 40%;
+	align-items: center;
+	justify-content: center;
+	color: var(--text-text-primary);
+}
+
+.banner h1 {
+	margin-left: 0;
+	font-size: 4rem;
+	line-height: 120%; /* 4.8rem */
+	text-align: center;
+	font-weight: 300;
+}
+
+.banner p {
+	margin-left: 0;
+	text-align: center;
+	font-size: 1.25rem;
+	line-height: 150%;
+	font-weight: 300;
+}

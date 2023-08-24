@@ -1,0 +1,57 @@
+.proList {
+	display: grid;
+	gap: 2rem 3rem;
+	grid-template-columns: auto auto auto;
+	padding: 0;
+}
+
+.proItem {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.proNum
+{
+	color: var(--color-brand-primary, #A64D79);
+	/* Display/Display 2 */
+	font-family: Noto Sans SC;
+	font-size: 3.5rem;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0.0175rem;
+}
+
+.proDesWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content:space-around;
+	min-width: 20.625rem;
+	max-width: 28.125rem;
+}
+
+.proItem h3
+{
+	color: var(--text-text-primary, #212529);
+	font-size: 1.5rem;
+	font-weight: 500;
+	line-height: 120%; /* 1.8rem */
+	margin: 0;
+}
+
+.proItem p
+{
+	color: var(--text-text-primary, #212529);
+	text-align: justify;
+
+	/* Paragraph/md */
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 150%; /* 1.5rem */
+	margin: 0;
+}
+
+.proDesWrapper {
+	display: flex;
+	flex-direction: column;
+}
